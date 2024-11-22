@@ -1,0 +1,37 @@
+body {
+    background-image: url("coffee.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.item {
+    text-decoration: none;
+}
+#btn{
+    padding: 10px;
+    font-size: 20px;
+    font-family: "Stint Ultra Condensed", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 10px;
+    width: auto;
+    text-align: center;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    padding: 10px 0;
+}
+
+#footer button,
+#footer a {
+    margin: 0 40px; 
+}
