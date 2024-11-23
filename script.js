@@ -50,9 +50,6 @@ const quotesDay = [
 "Happiness is when what you think, what you say, and what you do are in harmony. – Mahatma Gandhi",
 "Keep your face always toward the sunshine—and shadows will fall behind you. – Walt Whitman",
 "Life isn’t about finding yourself. It’s about creating yourself. – George Bernard Shaw",
-"We do not remember days, we remember moments. – Cesare Pavese",
-"The purpose of our lives is to be happy. – Dalai Lama",
-{ type: "image", content: "quote.png"}
 ]
 
 button.addEventListener("click", () => {

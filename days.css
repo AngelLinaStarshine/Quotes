@@ -2,12 +2,16 @@ body {
     background-image: url("coffee1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 0; 
+    margin: 0;
     padding: 0;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.item {
+    text-decoration: none;
 }
 
 #par {
@@ -16,37 +20,47 @@ body {
     font-style: italic;
     text-align: center;
     margin-top: 100px;
-    color: black;
+    color: rgb(5, 5, 5);
     font-size: 40px;
 }
 
 #btn, .item-button {
     padding: 10px;
     font-size: 20px;
-    font-family: "Stint Ultra Condensed", serif;
-    font-weight: 400;
     font-style: normal;
     margin: 10px;
-    width: auto;
     text-align: center;
-    color: #333;
-    border: none;
+    color: white;
     cursor: pointer;
     text-decoration: none;
-    
+    background: none;
+    border: 2px solid transparent;
+    transition: all 0.3s ease; 
+}
+
+
+#btn:hover {
+    font-size: 30px;
+    padding: 12px 25px;
+    color: white;
+    border: 2px solid white; 
+}
+
+
+.item-button:hover {
+    font-size: 30px;
+    padding: 12px 25px;
+    color: rgb(117, 104, 104);
+    border: 2px solid rgb(117, 104, 104);
 }
 
 #footer {
     position: fixed;
     bottom: 0;
-    width: 100%;
+    width: 100%; 
     display: flex;
-    justify-content:center;
-    align-items:center;
+    justify-content: center;
+    align-items: center;
     padding: 10px 0;
-}
-
-#footer button,
-#footer a {
-    margin: 0 40px; 
+    background: rgba(0, 0, 0, 0.7); 
 }

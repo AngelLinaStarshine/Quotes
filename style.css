@@ -3,35 +3,31 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.item {
-    text-decoration: none;
-}
-#btn{
-    padding: 10px;
-    font-size: 20px;
-    font-family: "Stint Ultra Condensed", serif;
-    font-weight: 400;
-    font-style: normal;
-    margin: 10px;
-    width: auto;
-    text-align: center;
-    color: #333;
-    border: none;
-    cursor: pointer;
-    text-decoration: none;
-}
 
 #footer {
-    position: fixed;
     bottom: 0;
     width: 100%;
     display: flex;
-    justify-content:center;
-    align-items:center;
+    justify-content: center;
+    align-items: center;
     padding: 10px 0;
 }
 
-#footer button,
-#footer a {
-    margin: 0 40px; 
+.quote-btn {
+    margin: 0 20px;
+    background: inherit;
+    border: none;
+    font-size: 40px;
+}
+
+.item {
+    text-decoration: none;
+    color: rgb(25, 24, 24);
+
+}
+
+.item:hover {
+    font-size: 50px;
+    padding: 12px 25px;
+    color: white;
 }
