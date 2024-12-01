@@ -70,7 +70,7 @@ body {
     }
 
     #btnOne, .item-button {
-        font-size: 18px;
+        font-size: 20px;
         padding: 8px;
     }
 
@@ -87,12 +87,12 @@ body {
     }
 
     #btnOne, .item-button {
-        font-size: 16px;
+        font-size: 22px;
         padding: 6px;
     }
 
     #btnOne:hover, .item-button:hover {
-        font-size: 22px;
+        font-size: 28px;
         padding: 8px 15px;
     }
 }
@@ -104,12 +104,12 @@ body {
     }
 
     #btnOne, .item-button {
-        font-size: 14px;
+        font-size: 24px;
         padding: 5px;
     }
 
     #btnOne:hover, .item-button:hover {
-        font-size: 18px;
+        font-size: 28px;
         padding: 6px 12px;
     }
 }
