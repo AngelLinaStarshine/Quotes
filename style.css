@@ -1,16 +1,22 @@
 body {
     background-image: url("coffee.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; 
+    margin: 0;
+    padding: 0;
+    height: 100vh; 
 }
 
 #footer {
+    position: fixed; 
     bottom: 0;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px 0;
+    background: rgba(0, 0, 0, 0.7); 
+    color: white;
 }
 
 .quote-btn {
@@ -18,16 +24,56 @@ body {
     background: inherit;
     border: none;
     font-size: 40px;
+    color: white; 
+    cursor: pointer;
+    transition: font-size 0.3s ease, padding 0.3s ease;
 }
 
 .item {
+    padding: 10px;
+    font-size: 20px;
+    font-style: normal;
+    margin: 10px;
+    text-align: center;
     text-decoration: none;
-    color: rgb(25, 24, 24);
-
+    color: rgb(117, 104, 104);
+    transition: font-size 0.3s ease, padding 0.3s ease, color 0.3s ease;
 }
 
-.item:hover {
-    font-size: 50px;
+.quote-btn:hover {
+    font-size: 30px;
     padding: 12px 25px;
     color: white;
+    border: 2px solid rgb(117, 104, 104);
+}
+
+@media (max-width: 768px) {
+    .quote-btn {
+        font-size: 30px;
+    }
+
+    .item:hover {
+        font-size: 40px;
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        background-size: cover; 
+    }
+
+    .quote-btn {
+        font-size: 20px;
+    }
+
+    #footer {
+        flex-direction: column; 
+        padding: 20px 0;
+    }
+
+    .item:hover {
+        font-size: 20px;
+        padding: 8px 15px;
+    }
 }
